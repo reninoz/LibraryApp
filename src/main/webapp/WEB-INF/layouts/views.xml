@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+	"-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+	"http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+
+	<definition name="index" extends="DefaultTemplate">
+	    <put-attribute name="body"	value="/WEB-INF/views/index.jsp" />
+	</definition>
+	
+	<definition name="bookList" extends="DefaultTemplate">
+	    <put-attribute name="body"	value="/WEB-INF/views/bookList.jsp" />
+	</definition>
+
+	<definition name="personList" extends="DefaultTemplate">
+	    <put-attribute name="body"	value="/WEB-INF/views/personList.jsp" />
+	</definition>
+	
+	<definition name="newPerson" extends="DefaultTemplate">
+	    <put-attribute name="body"	value="/WEB-INF/views/addPerson.jsp" />
+	</definition>
+	
+</tiles-definitions>
